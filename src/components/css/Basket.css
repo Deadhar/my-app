@@ -1,0 +1,16 @@
+.Basket * {
+    box-sizing: border-box;
+    /* border: 1px solid #f00; */
+}
+
+.Basket {
+    width: 170%;
+    margin: auto;
+    margin-left: 15%;
+}
+
+.BasketItem,
+.BasketPromoInfo,
+.BasketTotal {
+    padding: 10px 20px;
+}

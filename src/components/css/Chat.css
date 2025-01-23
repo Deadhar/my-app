@@ -1,0 +1,78 @@
+.chat-container {
+    width: 100%;
+    max-width: 600px;   /* Устанавливаем максимальную ширину */
+    margin: 50px auto;  /* Центрируем чат на странице */
+    padding: 20px;
+    background-color: #f7f7f7;  /* Светлый фон */
+    border-radius: 10px; /* Скругленные углы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для эффекта */
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    overflow-y: auto;
+}
+
+/* Стили для сообщений */
+.chat-message {
+    background-color: #e0f7fa;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для времени сообщений */
+.chat-time {
+    font-size: 12px;
+    color: #888;
+    text-align: right;
+}
+
+/* Стили для поля ввода */
+.chat-input-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.chat-input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.chat-input:focus {
+    outline: none;
+    border-color: #00bcd4; /* Изменяем цвет границы при фокусе */
+}
+
+/* Стили для кнопок */
+.chat-button {
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Эффект при наведении на кнопку */
+.chat-button:hover {
+    background-color: #0097a7;
+}
+
+/* Стили для кнопки очистки */
+.clear-button {
+    background-color: #f44336;
+}
+
+.clear-button:hover {
+    background-color: #d32f2f;
+}

@@ -1,0 +1,106 @@
+.CatalogPage {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .CatalogPageHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .CatalogPage_h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .CatalogPage_sort_item {
+    margin-right: 15px;
+  }
+  
+  .CatalogPage_link {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .CatalogPage_link:hover {
+    text-decoration: underline;
+  }
+  
+  .Catalog_items {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .Catalog_items__table {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .Catalog_items__list {
+    grid-template-columns: 1fr;
+  }
+  
+  .CatalogProduct {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .CatalogProduct_image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .CatalogProduct_price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .CatalogProduct_description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .CatalogProduct_star {
+    color: #ffc107;
+    margin-bottom: 10px;
+  }
+  
+  .CatalogProduct_addtobasket {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .CatalogProduct_addtobasket:hover {
+    background-color: #218838;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
